@@ -11,8 +11,8 @@ class TestCases(unittest.TestCase):
         expected = 3
         self.assertEqual(found, expected)
 
-        found = funcs.max_101(3 , 3)
-        expected = 3
+        found = funcs.max_101(3 , 4)
+        expected = 4
         self.assertEqual(found, expected)
 
     def test_max_of_three(self):

@@ -13,7 +13,3 @@ def is_positive(x):
     return x > 0
 def both_positive(x ,y):
     return x > 0 and y > 0
-def getVelocitySkater(massSkater, massObject, velObject):
-    velSkater = (massObject * velObject) / massSkater
-    return velSkater
-print(getVelocitySkater(10 , 5 , 7))

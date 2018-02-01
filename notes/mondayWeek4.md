@@ -4,7 +4,7 @@ First midterm is on Friday 2/2 may vary if you are in a different section of CPE
 
 Things included in the midterm are linux-commands, Python: functions, if-else, and loops, and TestCases
 
-Also as always the more in depth notes will be linked [here](https://polylearn.calpoly.edu/AY_2017-2018/pluginfile.php/508641/mod_resource/content/1/csc101stud_chap4_Loops.pdf
+Also as always the more in depth notes will be linked [here](https://polylearn.calpoly.edu/AY_2017-2018/pluginfile.php/508641/mod_resource/content/1/csc101stud_chap4_Loops.pdf)
 
 Another great resource for information formatting strings will be located [here](https://pyformat.info/)
 
