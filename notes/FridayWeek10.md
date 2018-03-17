@@ -60,5 +60,29 @@ def get_fully_blurred_pixel(image, r, c, reach):
                         cols[1] = cols[1] + image[y][x].g
                         cols[2] = cols[2] + image[y][x].b
     return Pixel(int(cols[0]/count), int(cols[1]/count), int(cols[2]/count))
-                        
+
+```
+
+Blur Mechanism:
+
+```Python
+
+d >= 2* radius #Pixel is unchanged
+
+d <= radius  # Pixel is fully blurred
+
+radius < d < 2 * radius # Pixel is partially blurred
+
+```
+
+
+### Weight Function
+
+```Python
+
+def get_weighted_pixel(p1, p2, weight):
+    r = p1.r * (2 - weight) + p2.r * (weight - 1) # do this for each r,g,b value 
+    #   ^ fully blurred pixel      ^ original pixel   
+    # partially blurred pixel  
+
 ```
